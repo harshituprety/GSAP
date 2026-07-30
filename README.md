@@ -23,7 +23,12 @@ View the <a href="https://gsap.com/docs">full documentation here</a>, including 
 ### CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/gsap.min.js"
+      integrity="sha512-oJ8QbaQThQoJZ7oEv+29jfPM6CcP+zUxh3PKJs1vyOhx0UraUrE7PQgeItu3dOuCJyrzWpoYMsVjkkPEBzbUqw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 ```
 
 See <a href="https://www.jsdelivr.com/gsap">JSDelivr's dedicated GSAP page</a> for quick CDN links to the core files/plugins. There are more <a href="https://gsap.com/install">installation instructions</a> at gsap.com.
